@@ -1,0 +1,43 @@
+INSERT INTO escritor (nome, genero_literario)
+VALUES
+    ('J.K. Rowling', 'Fantasia'),
+    ('J.R.R. Tolkien', 'Fantasia'),
+    ('Dan Brown', 'Aventura'),
+    ('William P. Young', 'Ficção'),
+    ('Frank Herbert', 'Ficção'),
+    ('Agatha Christie', 'Mistério'),
+    ('J.D. Salinger', 'Drama'),
+    ('Machado de Assis', 'Realismo'),
+    ('Orson Scott Card', 'Ficção científica'),
+    ('George R.R. Martin', 'Fantasia'),
+    ('Margaret Atwood', 'Ficção científica'),
+    ('Paulo Freire', 'Educação'),
+    ('Oscar Wilde', 'Drama'),
+    ('Charles Dickens', 'Romance'),
+    ('Gabriel García Márquez', 'Romance'),
+    ('José de Alencar', 'Romance');
+
+INSERT INTO livro (titulo,valor_mercado, isbn, data_publicada, escritor_id)
+VALUES
+    ('Harry Potter e a Pedra Filosofal',22.80, '978-85-325-0169-0', '1997-06-26', 1),
+    ('O Senhor dos Anéis: A Sociedade do Anel',22.80 ,'978-85-325-0368-1', '1954-07-29', 2),
+    ('O Código Da Vinci', 22.80,'978-85-325-0369-8', '2003-03-18', 3),
+    ('A Cabana',22.80, '978-85-325-0371-1', '2007-09-10', 4),
+    ('Duna',22.80, '978-85-325-0372-8', '1965-06-01', 5),
+    ('Game of Thrones',22.80, '978-85-325-0373-5', '1996-08-01', 10),
+    ('O Assassinato de Roger Ackroyd',22.80, '978-85-325-0372-8', '1926-01-01', 6),
+    ('O Misterioso Caso de Styles',22.80, '978-85-325-0373-5', '1920-01-01', 6),
+    ('O Assassinato no Expresso do Oriente',22.80, '978-85-325-0374-2', '1934-01-01', 6),
+    ('Morte no Nilo',22.80, '978-85-325-0375-9', '1937-01-01', 6),
+    ('O Apanhador no Campo de Centeio',22.80, '978-85-325-0374-2', '1951-07-16', 7),
+    ('Pedagogia da Autonomia',22.80, '978-85-325-0376-6', '1996-10-01', 12),
+    ('O Retrato de Dorian Gray',22.80, '978-85-325-0377-3', '1890-07-10', 13),
+    ('Oliver Twist',22.80, '978-85-325-0378-0', '1838-02-28', 14),
+    ('Cem Anos de Solidão',22.80, '978-85-325-0379-7', '1967-04-17', 15),
+    ('Iracema',22.80, '978-85-325-0380-3', '1865-01-22', 16),
+    ('Memórias Póstumas de Brás Cubas',22.80, '978-85-325-0381-0', '1881-01-01', 8),
+    ('Dom Casmurro',22.80, '978-85-325-0382-7', '1899-01-01', 8),
+    ('Quincas Borba',22.80, '978-85-325-0383-4', '1891-01-01', 8),
+    ('O Alienista',22.80, '978-85-325-0384-1', '1882-01-01', 8),
+    ('A Guerra dos Generais',22.80, '978-85-325-0391-9', '1987-01-01', 9),
+    ('A Mão Esquerda da Escuridão',22.80, '978-85-325-0392-6', '1976-01-01', 9);
